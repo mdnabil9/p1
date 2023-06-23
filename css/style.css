@@ -1,0 +1,372 @@
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* Layout Classes */
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+[class*="col-"] {
+    float: left;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    height: 200px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+/* Layout ENd*/
+
+section{
+    padding: 90px 0px;
+}
+.btn{
+    width: 300px;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.heading{
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+.sub-heading{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.underline{
+    width: 5%;   
+    border-top: 4px solid rgba(0, 0, 0, 0.147);
+    margin: 15px auto;
+}
+.writing-part{
+    text-align: center;
+    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
+}
+.box-part{
+    text-align: center;
+}
+.box{
+    padding: 0px 25px;
+}
+p
+{
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+/* Header Part */
+header{
+    background-color: #87509c;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.menu-part ul{
+    float: right;
+}
+.menu-part li{
+    display: inline-block;
+    /* border: 1px solid red; */
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 2px 0px;
+}
+.menu-part li a{
+    color: #fff;
+    margin: 0px 20px;
+}
+.menu-part li:hover{
+    background-color: rgba(0, 0, 0, 0.255);
+}
+.hero-part h1{
+    text-align: center;
+    /* color: red; */
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+.hero-part .btn{
+    background-color: #eb7d4b;
+    color: #fff;
+    margin-top: 50px;
+}
+/* Service Section  */
+#service{
+    background-color: #17c2a4;
+    color: #fff;
+}
+.box-part img{
+    height: 130px;
+}
+
+/* Team Section */
+#team{
+    background-color: #e7f1f8; 
+    color: #3c4761;
+}
+.des{
+    color: #30bae7;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+#team .icon-part{
+    /* background-color: red; */
+}
+.team-icon-box{
+    margin-top: 10px;
+    text-align: center;
+}
+.team-icon-box i{
+    background-color: #bdd1df;
+    font-size: 20px;
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+/* Skill Section  */
+#skill{
+    background-color: #fff; 
+    color: #3c4761;
+}
+
+/* Portfolio Section  */
+#portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+}
+#portfolio .head-info{
+    width: 40%;
+    margin: 0px auto;
+}
+.portfolio .writing-part{
+    margin-bottom: 20px;
+    background-color: red;
+}
+.portfolio-btn-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.portfolio-image-part div{
+    padding: 30px;
+}
+.portfolio-image-part p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 550;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.portfolio-image-part button{
+    background-color: #17c2a4;
+    color: #fff;
+}
+.portfolio-btn-box button{
+    padding: 5px 20px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.095);
+    color: #393939;
+    font-size: 16px;
+}
+.portfolio-btn-box button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* About Us */
+#about-us{
+    background-color: #d74680;
+    color: #fff;
+}
+.about-us-info-part{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-us-info-part img{
+    padding: 5px;
+}
+.about-us-info-part h3{
+    text-align: left;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.about-us-info-part p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    /* padding: 0px 15px; */
+    font-style: italic;
+    width: 80%;
+}
+.people-info{
+    color: #ffdd99;
+    font-size: 16px !important;
+    line-height: 16px;
+    font-style: normal !important;
+}
+
+/* Get in Touch section */
+#touch{
+    background-color: #3c5499;
+    color: #fff;
+}
+#touch .box-part{
+    border: 1px solid red;
+}
+form{
+    /* float: left; */
+    width: 70%;
+    margin: 0px auto;
+}
+.form-part-one{
+    
+}
+form input,textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.162);
+    color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+form input{
+    height: 50px;
+}
+form input::placeholder,textarea::placeholder{
+    color: white;
+    font-size: 15px;
+}
+input[type="text"]{
+   width: 98%;
+   margin-right: 2%;
+}
+input[type="email"]{
+   width: 98%;
+   margin-left: 2%;
+}
+form button{
+    background-color: #30bae7;
+    color: #fff;
+}
+form textarea{
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.form-part-two{
+
+}
+/* 
+#team-heading{
+    color: #3c4761;
+}
+#portfolio-heading{
+    color: #393939;
+}
+
+
+.color-white{
+    color: #fff;
+}
+.color-blue{
+    color: #3c4761;
+}
+
+
+
+
+
+
+
+
+
+
+
+#service{
+    background-color: #17c2a4;
+    color: #fff;
+}
+#team{
+    background-color: #e7f1f8; 
+    color: #3c4761;
+}
+#skills{
+    background-color: #ffffff;
+    color: #3c4761;
+}
+#portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+}
+#about-us{
+    background-color: #d74680;
+}
+#touch{
+    background-color: #3c5499;
+    color: white;
+}
+*/
