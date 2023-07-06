@@ -9,6 +9,9 @@
     font-family: 'Titillium Web', sans-serif;
 }
 /* Layout Classes */
+[class*="col-"] {
+    float: left;
+}
 .col-1 {
     width: 8.33%;
 }
@@ -44,9 +47,6 @@
 }
 .col-12 {
     width: 100%;
-}
-[class*="col-"] {
-    float: left;
 }
 .container {
     width: 80%;
@@ -152,6 +152,7 @@ header{
 }
 .box-part img{
     height: 130px;
+    
 }
 
 /* Team Section */
@@ -168,7 +169,7 @@ header{
     font-weight: 500;
 }
 #team .icon-part{
-    /* background-color: red; */
+    
 }
 .team-icon-box{
     margin-top: 10px;
@@ -177,8 +178,8 @@ header{
 .team-icon-box i{
     background-color: #bdd1df;
     font-size: 20px;
-    margin: 0px 5px;
-    padding: 10px;
+    margin: 0px 2.5px;
+    padding: 2.5px;
     border-radius: 100%;
 }
 
